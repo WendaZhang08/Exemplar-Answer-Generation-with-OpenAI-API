@@ -14,6 +14,12 @@ Cura Education hosts an extensive library of online courses designed for student
 - Contains automated testing suite
 - Supports educational assessment workflows
 
+## Key Features
+- 🤖 Leverages OpenAI's GPT-4o mini model for answer generation
+- 📊 Comprehensive data analysis and preprocessing pipeline
+- 🎯 Multiple evaluation metrics for quality assessment
+- 🧪 Broad test coverage with pytest
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -252,7 +258,7 @@ Comprehensive test suite using `pytest` framework to validate the OpenAI handler
 - Verifies training process outcomes
 - Tests evaluation metrics calculation
 
-##### Test Framework
+#### Test Framework
 The testing framework uses fixtures for test setup:
 
 - `mock_openai_client`: Provides controlled API response simulation
@@ -262,3 +268,27 @@ The testing framework uses fixtures for test setup:
 Error handling validation is implemented through specific test cases that verify the system's response to various error conditions, including API failures and invalid inputs. The testing logic demonstrates the robustness of the implementation and its ability to handle various operational scenarios reliably.
 
 ![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/pytest-output.png)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- [Cura Education](https://www.curaeducation.com/) for providing the training dataset and OpenAI API access
+- OpenAI for their GPT models and API
+
+## Contact Information
+
+### Author
+**Wenda Zhang**
+- Master of Information Technology (Artificial Intelligence) @ The University of Melbourne
+- Focus: Machine Learning, Natural Language Processing, Website Development
+
+### Get in Touch
+- 📧 Email: [damonzhang0824@gmail.com](mailto:damonzhang0824@gmail.com)
+- 💼 LinkedIn: [Wenda Zhang](https://www.linkedin.com/in/wenda-zhang-a469b4188/?trk=opento_sprofile_goalscard)
+- 🌐 GitHub: [WendaZhang08](https://github.com/WendaZhang08)
+- 📍 Location: Melbourne, Australia
+
+---
+
+*Last updated: October 2024*
