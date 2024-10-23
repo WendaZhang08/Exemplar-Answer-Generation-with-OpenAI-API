@@ -14,16 +14,10 @@ Cura Education hosts an extensive library of online courses designed for student
 - Contains automated testing suite
 - Supports educational assessment workflows
 
-
-## Tech Stack
-- Python
-- OpenAI API
-- pytest
-
 ## Setup and Installation
 
 ### Prerequisites
-- Python 3.9+
+- **Python 3.9+**
 - Conda environment manager (recommended)
 
 ---
@@ -52,22 +46,24 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-1. **Data Analysis**
-   Open and run `Section1_Data_Analysis.ipynb` to perform data analysis.
+1. **Data Analysis**：
+   Open and run `Section1_Data_Analysis.ipynb` to perform data analysis of the training dataset.
 
-2. **OpenAI Integration**
-   Open and run `Section2_OpenAI_Integration.py` to perform OpenAI Integration.
+2. **OpenAI Integration**：
+   Open and run `Section2_OpenAI_Integration.py` to perform data preprocessing, exemplar answer generation and performance evaluation. 
 
-3. **Testing**
-   Execute the test suite:
+3. **Testing**：
+   Execute the test suite by following:
 
 ```bash
 pytest test_openai_handler.py -v
 ```
 
+This will run all test cases and display detailed results.
+
 ## Project Structure
 
-### 1. Data Analysis Section (`Section1_Data_Analysis.ipynb`)
+### 1. Data Analysis Section ([Section1_Data_Analysis.ipynb](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section1_Data_Analysis.ipynb))
 
 This notebook contains comprehensive analysis of the training dataset used for generating exemplar answers. The analysis is structured as follows:
 
@@ -110,7 +106,7 @@ The structured analysis aids in developing a solution for generating appropriate
 
 ---
 
-### 2. OpenAI Integration Section (`Section2_OpenAI_Integration.ipynb`)
+### 2. OpenAI Integration Section ([Section2_OpenAI_Integration.ipynb](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb))
 
 This section implements the core functionality for generating exemplar answers using OpenAI's API, featuring a class hierarchy for API integration and evaluation:
 
@@ -133,27 +129,26 @@ This section implements the core functionality for generating exemplar answers u
 
 #### Implementation Architecture
 
-1. Base OpenAI Handler
+1. **Base OpenAI Handler**
 - API initialization and token management
 - Basic tokenization functionality
 - Token usage tracking and statistics
 
-2. Prompt Handler
+2. **Prompt Handler**
 - Multiple prompt template implementations
 - Context formatting for API requests
 - Template optimization logic
 
-3. Generation Handler
+3. **Generation Handler**
 - Answer generation functionality
-- Retry mechanism for API calls
 - Token usage optimization
 
-4. Training Handler
+4. **Training Handler**
 - Prompt template selection and optimization
 - Best example selection for few-shot learning
 - Training process management
 
-5. Evaluation Handler
+5. **Evaluation Handler**
 
 - Comprehensive evaluation metrics implementation
    - Content relevance scoring
@@ -168,12 +163,12 @@ This section implements the core functionality for generating exemplar answers u
 
 The evaluation system includes multiple dimensions:
 
-- Basic Metrics
+- **Basic Metrics**
   - Quality scoring (0-1 scale)
   - Rubric alignment (0-1 scale)
   - Semantic similarity with reference answers
 
-- Detailed Metrics
+- **Detailed Metrics**
   - Length ratio analysis
   - Keyword coverage
   - Structure similarity
@@ -207,9 +202,9 @@ and:
 The evaluation reveals several key insights about the model's performance:
 
 - **Robust Performance Metrics**:
-  - Strong semantic alignment (0.671 ± 0.041)
-  - Consistent rubric adherence (0.641 ± 0.017)
-  - Stable quality scores (0.513 ± 0.019)
+  - Strong semantic alignment (**0.671 ± 0.041**)
+  - Consistent rubric adherence (**0.641 ± 0.017**)
+  - Stable quality scores (**0.513 ± 0.019**)
 
 - **Generalization Capabilities**:
   - Consistent performance across k-fold validation
@@ -226,5 +221,49 @@ The evaluation reveals several key insights about the model's performance:
   - Rigorous scoring methodology
   - Comprehensive correlation analysis between metrics
 
-For detailed analysis and visualizations, refer to [Section 3.3: The Analysis of the Evaluation Results](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results)
+For detailed analysis, refer to [Section 3.3: The Analysis of the Evaluation Results](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results)
 
+---
+
+### 3. Testing Implementation
+
+#### Python Script Generation ([Section2_OpenAI_Integration.py](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.py))
+The implementation code has been converted from Jupyter notebook to a standalone Python script using `jupyter nbconvert`, making it suitable for automated testing.
+
+#### Automated Testing ([test_openai_handler.py](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/test_openai_handler.py))
+Comprehensive test suite using `pytest` framework to validate the OpenAI handler implementation. The testing strategy focuses on four main areas:
+
+1. **Basic Handler Testing**
+- Validates proper initialization of the OpenAI handler with API keys
+- Tests token counting and management functionality
+- Verifies API interaction through mock responses
+- Ensures correct token usage tracking and limits
+
+2. **Quality Evaluation Testing**
+- Tests the answer quality assessment algorithms through `test_evaluate_example_quality`
+- Validates rubric alignment calculations
+- Verifies semantic similarity measurements between generated and reference answers
+- Tests keyword extraction functionality for content analysis
+
+3. **Edge Case Handling**
+- Tests behavior with empty inputs (`test_invalid_input_empty_string`)
+- Validates handling of invalid input types
+- Verifies response to token limit scenarios
+- Tests API error handling mechanisms
+
+4. **Integration Testing**
+- Tests complete workflow from input processing to answer generation
+- Validates prompt template selection logic
+- Verifies training process outcomes
+- Tests evaluation metrics calculation
+
+##### Test Framework
+The testing framework uses fixtures for test setup:
+
+- `mock_openai_client`: Provides controlled API response simulation
+- `sample_data`: Delivers standardized test cases for consistent evaluation
+- `handler`: Creates preconfigured handler instances
+
+Error handling validation is implemented through specific test cases that verify the system's response to various error conditions, including API failures and invalid inputs. The testing logic demonstrates the robustness of the implementation and its ability to handle various operational scenarios reliably.
+
+![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/cross-fold-performance-trends-plot.png)
