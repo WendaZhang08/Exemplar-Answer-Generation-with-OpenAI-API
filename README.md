@@ -50,13 +50,11 @@ pip install -r requirements.txt
 
 2. **OpenAI Integration**: Open and run `Section2_OpenAI_Integration.py` to perform data preprocessing, exemplar answer generation and performance evaluation. 
 
-3. **Testing**: Execute the test suite by following,
+3. **Testing**: Execute the test suite command below, which will run all test cases and display detailed results.
 
 ```bash
 pytest test_openai_handler.py -v
 ```
-
-   This will run all test cases and display detailed results.
 
 ## Project Structure
 
