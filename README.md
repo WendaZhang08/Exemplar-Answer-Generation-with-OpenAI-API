@@ -267,7 +267,7 @@ The testing framework uses fixtures for test setup:
 
 Error handling validation is implemented through specific test cases that verify the system's response to various error conditions, including API failures and invalid inputs. The testing logic demonstrates the robustness of the implementation and its ability to handle various operational scenarios reliably.
 
-![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/pytest-output.png)
+![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/pytest-output.jpg)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
