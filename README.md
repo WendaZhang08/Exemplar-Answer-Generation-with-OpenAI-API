@@ -1,6 +1,6 @@
 # Exemplar Answer Generation Project
 
-A Python application that leverages **OpenAI's GPT models** (GPT-4o mini) to automatically generate high-quality exemplar answers for educational assessment questions. This project is developed in collaboration with [Cura Education](https://www.curaeducation.com/), who provided both the training dataset (`cura-llm-training-data.json`) and OpenAI API access.
+This project developed a Python application that leverages **OpenAI's GPT models** (GPT-4o mini) to automatically generate high-quality exemplar answers for educational assessment questions. This project uses training data (`cura-llm-training-data.json`) and OpenAI API access provided by [Cura Education](https://www.curaeducation.com/).
 
 ## Background 
 
@@ -222,7 +222,7 @@ The evaluation reveals several key insights about the model's performance:
   - Rigorous scoring methodology
   - Comprehensive correlation analysis between metrics
 
-For detailed analysis, refer to [Section 3.3: The Analysis of the Evaluation Results](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results)
+For detailed analysis, refer to [Section 3.3: The Analysis of the Evaluation Results](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results).
 
 ---
 
