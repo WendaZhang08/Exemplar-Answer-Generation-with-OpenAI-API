@@ -1,7 +1,5 @@
 import pytest
 import json
-import numpy as np
-from typing import List, Dict
 from unittest.mock import Mock, patch, MagicMock
 from Section2_OpenAI_Integration import OpenAIHandler
 

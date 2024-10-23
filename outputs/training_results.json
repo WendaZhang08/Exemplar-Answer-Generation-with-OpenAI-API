@@ -21,8 +21,8 @@
   ],
   "selected_template": "_create_few_shot_template",
   "token_usage": {
-    "total_tokens_used": 2295136,
-    "remaining_tokens": 2704864,
-    "percentage_used": 45.90272
+    "total_tokens_used": 2323751,
+    "remaining_tokens": 2676249,
+    "percentage_used": 46.47502
   }
 }
