@@ -46,20 +46,17 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-1. **Data Analysis**：
-   Open and run `Section1_Data_Analysis.ipynb` to perform data analysis of the training dataset.
+1. **Data Analysis**: Open and run `Section1_Data_Analysis.ipynb` to perform data analysis of the training dataset.
 
-2. **OpenAI Integration**：
-   Open and run `Section2_OpenAI_Integration.py` to perform data preprocessing, exemplar answer generation and performance evaluation. 
+2. **OpenAI Integration**: Open and run `Section2_OpenAI_Integration.py` to perform data preprocessing, exemplar answer generation and performance evaluation. 
 
-3. **Testing**：
-   Execute the test suite by following:
+3. **Testing**：Execute the test suite by following,
 
 ```bash
 pytest test_openai_handler.py -v
 ```
 
-This will run all test cases and display detailed results.
+    This will run all test cases and display detailed results.
 
 ## Project Structure
 
@@ -266,4 +263,4 @@ The testing framework uses fixtures for test setup:
 
 Error handling validation is implemented through specific test cases that verify the system's response to various error conditions, including API failures and invalid inputs. The testing logic demonstrates the robustness of the implementation and its ability to handle various operational scenarios reliably.
 
-![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/cross-fold-performance-trends-plot.png)
+![pytest-output](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/pytest-output.png)
