@@ -1,20 +1,20 @@
 [
   {
-    "answer": "Fin designs that have three or four triangular fins that are at the base end of the rocket work best. They stabilise the rocket and make it more aerodynamic or streamlined",
-    "rubric": "{\"criteria\": \"Decide which variables should be changed, measured and controlled in fair tests and accurately observe, measure and record data\", \"total_score\": 2, \"items\": [\"I can explain my response\", \"I can identify which fin design worked best\", \"No evidence\"]}",
-    "question": "Which fin design worked best? Why?",
+    "answer": "Will vary. As an example - If the load force is equal to the effort force, then the lever(ruler) will be balanced",
+    "rubric": "{\"criteria\": \"Identify questions, problems and claims that can be investigated scientifically and make predictions based on scientific knowledge\", \"total_score\": 2, \"items\": [\"I can create and explain a hypothesis using sound scientific principles\", \"I can create a hypothesis\", \"No evidence\"]}",
+    "question": "With balancing of load and effort forces in mind, devise a hypothesis for your experiment",
     "quality_score": 0.5
   },
   {
-    "answer": "The Earth\u2019s orbit around the Sun is an elliptical or oval shape. This means that the Earth is sometimes closer to the Sun than at other times",
-    "rubric": "{\"criteria\": \"Earth is part of a system of planets orbiting around a star (the Sun)\", \"total_score\": 2, \"items\": [\"I can explain the shape of the Earth's orbit\", \"I can describe the shape of the Earth's orbit\", \"No evidence\"]}",
-    "question": "Describe the shape of the Earth\u2019s orbit around the Sun",
+    "answer": "An oil spill on a lake would be easier to clean up as the oil stays in one layer. It would be easier to keep it in one area and to absorb it and retrieve it. It isn\u2019t moving around as much as an oil spill in the ocean",
+    "rubric": "{\"criteria\": \"investigate how scientific knowledge is used by individuals and communities to identify problems, consider responses and make decisions\", \"total_score\": 2, \"items\": [\"I can explain my answer\", \"I can identify why it would be easier to clean up an oil spill in a lake than one in the ocean\", \"No evidence\"]}",
+    "question": "Why would an oil spill on a lake be easier to clean up than one in the ocean?",
     "quality_score": 0.5
   },
   {
-    "answer": "They need to make sure that the quantity of fuel will produce the strongest reaction, which will give the rocket the biggest thrust as it takes off. They also need to be precise with fuel measurements because they can't carry extra fuel - the extra weight would weigh the rocket down and impair its ability to exit the atmosphere",
-    "rubric": "{\"criteria\": \"Scientific knowledge is used to solve problems and inform personal and community decisions\\n\", \"total_score\": 2, \"items\": [\"I can explain two reasons why scientists need to be precise with their fuel calculations\", \"I can explain one reason why scientists need to be precise with their fuel calculations\", \"No evidence\"]}",
-    "question": "Why do you think the NASA scientists need to be very precise with the amount of fuel they have on board the rocket before take-off?",
+    "answer": "The best results were when we used two or three mirrors to reflect the light. We also had to make sure that the mirrors were fairly close to the index card",
+    "rubric": "{\"criteria\": \"identify sources of light, recognise that light travels in a straight path and describe how shadows are formed and light can be reflected and refracted\", \"total_score\": 2, \"items\": [\"I can explain my answer\", \"I can identify the best approach to creating the brightest light spot\", \"No evidence\"]}",
+    "question": "Identify and explain which method gave the brightest light spot",
     "quality_score": 0.5
   }
 ]
