@@ -185,9 +185,9 @@ The evaluation system includes multiple dimensions:
 - Metric distribution analysis
 - Cross-fold performance trends
 
-![combined-plot](https://github.com/COMP90054-2024s2/a3-zhuoyoudeking/blob/master/img/experiment1-middlegames2.png)
+![combined-plot](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/combined-plot.png)
 
-![cross-fold-performance-trends-plot](https://github.com/COMP90054-2024s2/a3-zhuoyoudeking/blob/master/img/experiment1-middlegames1.png)
+![cross-fold-performance-trends-plot](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/images/cross-fold-performance-trends-plot.png)
 
 #### Analysis of Evaluation Results
 >[!Note]
@@ -226,5 +226,5 @@ The evaluation reveals several key insights about the model's performance:
   - Rigorous scoring methodology
   - Comprehensive correlation analysis between metrics
 
-For detailed analysis and visualizations, refer to [Section 3.3: The Analysis of the Evaluation Results](Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results)
+For detailed analysis and visualizations, refer to [Section 3.3: The Analysis of the Evaluation Results](https://github.com/WendaZhang08/Exemplar-Answer-Generation-with-OpenAI-API/blob/main/Section2_OpenAI_Integration.ipynb#3.3-The-Analysis-of-the-Evaluation-Results)
 
