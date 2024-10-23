@@ -279,9 +279,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact Information
 
 ### Author
-**Wenda Zhang**
+**Damon (Wenda) Zhang**
 - Master of Information Technology (Artificial Intelligence) @ The University of Melbourne
-- Focus: Machine Learning, Natural Language Processing, Website Development
+- Focus Areas: Machine Learning, Natural Language Processing, Website Development
 
 ### Get in Touch
 - 📧 Email: [damonzhang0824@gmail.com](mailto:damonzhang0824@gmail.com)
